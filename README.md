@@ -15,7 +15,7 @@ This NuGet package is built for: .NET Framework 4.6+, Windows (Phone) 8, Windows
 * Autoredirect
 * Headers
 * Set request as type of JSON
-* 
+
 ###Planned
 * Timeout + callback event
 * Use objects as HttpContent for POST/PUT
