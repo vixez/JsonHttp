@@ -1,0 +1,13 @@
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\bin\Debug\TestAppWinForms.exe.config
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\bin\Debug\TestAppWinForms.exe
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\bin\Debug\TestAppWinForms.pdb
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\bin\Debug\JsonHttp.dll
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\bin\Debug\Newtonsoft.Json.dll
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\bin\Debug\JsonHttp.pdb
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\bin\Debug\Newtonsoft.Json.xml
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\obj\Debug\TestAppWinForms.csprojResolveAssemblyReference.cache
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\obj\Debug\TestAppWinForms.Form1.resources
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\obj\Debug\TestAppWinForms.Properties.Resources.resources
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\obj\Debug\TestAppWinForms.csproj.GenerateResource.Cache
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\obj\Debug\TestAppWinForms.exe
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\TestAppWinForms\obj\Debug\TestAppWinForms.pdb

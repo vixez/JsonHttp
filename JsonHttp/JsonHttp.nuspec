@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>JsonHttp</id>
+    <version>0.1.1</version>
+    <title>JsonHttp</title>
+    <authors>Glenn Ruysschaert</authors>
+    <owners>Glenn Ruysschaert</owners>
+    <licenseUrl>http://www.glennruysschaert.com/pp/jsonhttp.html</licenseUrl>
+    <projectUrl>http://www.glennruysschaert.com/</projectUrl>
+    <iconUrl>http://glennruysschaert.com/JsonHttp/JsonHttp.jpg</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>An easy to use library to convert JSON API endpoint results into classes</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>json http</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="[8.0.3.0]"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Nuget\JsonHttp.dll" target="lib" />
+    <file src="bin\Nuget\JsonHttp.pdb" target="lib" />
+  </files>
+</package>

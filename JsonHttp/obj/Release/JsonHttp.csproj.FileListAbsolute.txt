@@ -1,0 +1,13 @@
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\bin\Release\JsonHttp.dll
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\bin\Release\JsonHttp.pdb
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\bin\Release\Newtonsoft.Json.dll
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\bin\Release\Newtonsoft.Json.xml
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\obj\Release\JsonHttp.dll
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\obj\Release\JsonHttp.pdb
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\bin\Release\System.Net.Http.dll
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\bin\Release\System.Net.Http.Extensions.dll
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\bin\Release\System.Net.Http.Primitives.dll
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\bin\Release\System.Net.Http.xml
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\bin\Release\System.Net.Http.Extensions.xml
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\bin\Release\System.Net.Http.Primitives.xml
+c:\users\glenn\documents\visual studio 2015\Projects\JsonHttp\JsonHttp\obj\Release\JsonHttp.csprojResolveAssemblyReference.cache

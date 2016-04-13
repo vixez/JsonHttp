@@ -1,0 +1,13 @@
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\bin\Debug\PackageTestWinForms.exe.config
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\bin\Debug\PackageTestWinForms.exe
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\bin\Debug\PackageTestWinForms.pdb
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\bin\Debug\JsonHttp.dll
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\bin\Debug\Newtonsoft.Json.dll
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\bin\Debug\JsonHttp.pdb
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\obj\Debug\PackageTestWinForms.csprojResolveAssemblyReference.cache
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\obj\Debug\PackageTestWinForms.Form1.resources
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\obj\Debug\PackageTestWinForms.Properties.Resources.resources
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\obj\Debug\PackageTestWinForms.csproj.GenerateResource.Cache
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\obj\Debug\PackageTestWinForms.exe
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\obj\Debug\PackageTestWinForms.pdb
+c:\Users\Glenn\documents\visual studio 2015\Projects\JsonHttp\PackageTestWinForms\bin\Debug\Newtonsoft.Json.xml
