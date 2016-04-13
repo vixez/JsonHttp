@@ -41,4 +41,4 @@ JsonHttp was made by Glenn Ruysschaert.
 
 It makes use of the HttpClient libraries provided by Microsoft and JSON.Net by James Newton-King
 
-Find more info and other projects on my site [www.glennruysschaert.com](www.glennruysschaert.com)
+Find more info and other projects, go to my site [www.glennruysschaert.com](www.glennruysschaert.com)
