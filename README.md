@@ -2,6 +2,8 @@
 ## About
 This is a simple library to quickly turn JSON responses from API endpoints into useable classes.
 
+[NuGet download](https://www.nuget.org/packages/JsonHttp/)
+
 ##Compatibility
 This NuGet package is built for: .NET Framework 4.6+, Windows (Phone) 8, Windows (Phone) 8.1, Windows Phone 8.1 Silverlight, Windows 10
 
