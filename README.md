@@ -8,13 +8,17 @@ This is a simple library to quickly turn JSON responses from API endpoints into 
 This NuGet package is built for: .NET Framework 4.6+, Windows (Phone) 8, Windows (Phone) 8.1, Windows Phone 8.1 Silverlight, Windows 10
 
 ##Features
-* Get
-* Post
-* Put
-* Delete
+* GET
+* POST
+* PUT
+* DELETE
 * Autoredirect
 * Headers
 * Set request as type of JSON
+* 
+###Planned
+* Timeout + callback event
+* Use objects as HttpContent for POST/PUT
 
 ##Examples
 ###Getting quick results
