@@ -22,10 +22,17 @@ public class JsonHttp
         public bool AddMediaTypeWithQualityHeadersJson { get; set; }
         public Dictionary<string, string> DefaultRequestHeaders { get; set; }
         public bool UseLocationHeaderForRedirects { get; set; }
+        public TimeSpan Timeout { get; set; }
+        public HttpClient HttpClient { get; set; }
     }
 
     private static HttpClient CreateClient(Options options = null)
     {
+        if (options?.HttpClient != null)
+        {
+            return options.HttpClient;
+        }
+
         HttpClientHandler handler = new HttpClientHandler();
         HttpClient httpClient = new HttpClient(handler);
 
@@ -43,8 +50,14 @@ public class JsonHttp
                     httpClient.DefaultRequestHeaders.Add(entry.Key, entry.Value);
                 }
             }
+            if (options.Timeout != new TimeSpan())
+            {
+                httpClient.Timeout = options.Timeout;
+            }
 
         }
+
+
         return httpClient;
     }
 
@@ -106,6 +119,14 @@ public class JsonHttp
             HttpResponseMessage response = await httpClient.GetAsync(uri);
             return await ProcessResponse<T>(response, RequestType.GET, options, null);
         }
+        catch (WebException)
+        {
+            throw;
+        }
+        catch (TaskCanceledException ex)
+        {
+            throw;
+        }
         catch (Exception ex)
         {
             throw new Exception("An unkown error occured: " + ex.Message);
@@ -120,10 +141,30 @@ public class JsonHttp
             HttpResponseMessage response = await httpClient.DeleteAsync(uri);
             return await ProcessResponse<T>(response, RequestType.DELETE, options, null);
         }
+        catch (WebException)
+        {
+            throw;
+        }
+        catch (TaskCanceledException ex)
+        {
+            throw;
+        }
         catch (Exception ex)
         {
             throw new Exception("An unkown error occured: " + ex.Message);
         }
+    }
+
+    public static async Task<T> Post<T>(Uri uri, object content, Options options = null)
+    {
+        StringContent stringContent = new StringContent(JsonConvert.SerializeObject(content));
+        return await Post<T>(uri, stringContent, options);
+    }
+
+    public static async Task<T> Post<T>(Uri uri, string content, Options options = null)
+    {
+        StringContent stringContent = new StringContent(content);
+        return await Post<T>(uri, stringContent, options);
     }
 
     public static async Task<T> Post<T>(Uri uri, HttpContent content, Options options = null)
@@ -134,10 +175,30 @@ public class JsonHttp
             HttpResponseMessage response = await httpClient.PostAsync(uri, content);
             return await ProcessResponse<T>(response, RequestType.POST, options, content);
         }
+        catch (WebException)
+        {
+            throw;
+        }
+        catch (TaskCanceledException ex)
+        {
+            throw;
+        }
         catch (Exception ex)
         {
             throw new Exception("An unkown error occured: " + ex.Message);
         }
+    }
+
+    public static async Task<T> Put<T>(Uri uri, object content, Options options = null)
+    {
+        StringContent stringContent = new StringContent(JsonConvert.SerializeObject(content));
+        return await Put<T>(uri, stringContent, options);
+    }
+
+    public static async Task<T> Put<T>(Uri uri, string content, Options options = null)
+    {
+        StringContent stringContent = new StringContent(content);
+        return await Put<T>(uri, stringContent, options);
     }
 
     public static async Task<T> Put<T>(Uri uri, HttpContent content, Options options = null)
@@ -147,6 +208,14 @@ public class JsonHttp
             HttpClient httpClient = CreateClient(options);
             HttpResponseMessage response = await httpClient.PutAsync(uri, content);
             return await ProcessResponse<T>(response, RequestType.PUT, options, content);
+        }
+        catch (WebException)
+        {
+            throw;
+        }
+        catch (TaskCanceledException ex)
+        {
+            throw;
         }
         catch (Exception ex)
         {

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -25,6 +26,14 @@ namespace TestAppWinForms
             };
             WordOfTheDay wotd = await JsonHttp.Get<WordOfTheDay>(new Uri("http://urban-word-of-the-day.herokuapp.com/today"), options);
             wotd = wotd;
+
+            WordOfTheDay toPost = new WordOfTheDay()
+            {
+                word = "test",
+                meaning = "something"
+            };
+            WordOfTheDay wotdPost = await JsonHttp.Post<WordOfTheDay>(new Uri(""), toPost, options);
+
         }
     }
 }

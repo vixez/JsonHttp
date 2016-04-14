@@ -30,6 +30,8 @@ namespace PackageTestWinForms
             };
             WordOfTheDay wotd = await JsonHttp.Get<WordOfTheDay>(new Uri("http://urban-word-of-the-day.herokuapp.com/today"), options);
             wotd = wotd;
+
+
         }
     }
 }
